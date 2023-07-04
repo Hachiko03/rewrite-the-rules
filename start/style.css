@@ -1,0 +1,15 @@
+:root {
+    --red: red;
+    --blue: blue;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: var(--red);
+    border-radius: 50px;
+}
