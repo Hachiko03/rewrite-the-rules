@@ -1,15 +1,17 @@
 :root {
-    --red: red;
-    --blue: blue;
+    --ball: #ff8800;
+    --background1: #011212;
+    --border: 50px;
+    --w_h: 100px;
 }
 
 body {
-    background-color: var(--blue);
+    background-color: var(--background1);
 }
 
 .ball {
-    width: 100px;
-    height: 100px;
-    background-color: var(--red);
-    border-radius: 50px;
+    width: var(--w_h);
+    height: var(--w_h);
+    background-color: var(--ball);
+    border-radius: var(--border);
 }
